@@ -23,10 +23,22 @@
             width: 200px;
             margin: auto;
         }
+       .f-hr{
+            width: 120px;
+        }
+        footer li{
+            list-style: none;
+        }
+        .text{
+            color: rgb(165, 162, 162);
+        }
         body::before{
             display: block;
             content: '';
             height: 60px;
+        }
+        .ft-img{
+            width: 10%;
         }
     </style>
 </head>
@@ -186,7 +198,7 @@
         <h1 class="text-center fw-bold px-3">Got A Query?</h1>
         <hr class="border-3 mb-5">
         <div>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="d-lg-flex justify-content-between align-items-center">
                 <img class="img-fluid w-50" src="images/img2.svg" alt="">
                 <form>
                     <div class="mb-3">
@@ -204,13 +216,52 @@
                 </form>
             </div>
         </div>
-
        </section>
-       
-
     </main>
-    <footer>
-
+    <footer class="bg-dark mt-5">
+        <div class="container">
+            <div class="row gap-5 p-5">
+                <!-- start -->
+                <div class="col-lg-6 text">
+                    <div class="d-flex align-items-center mb-2">
+                        <img class="ft-img img-fluid" src="images/logos/logo-hashtag.png" alt="">
+                        <h3 class=" text-light">hashtag</h1>
+                    </div>
+                    <p >Hashtag, Inc.is a for-profit massive open online course provider aimed at professional adults and students. Her, students take courses primarily to improve job-related skills.
+                    </p>
+                    <!-- icon -->
+                    <div class="d-flex gap-4 fs-2 my-4 text-light">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a><i class="fa-brands fa-google-plus-g"></i></a>
+                    </div>
+                    <h5 class=" text-light">Copyright © 2022. Tanmay Kumar.</h3>
+                    <p>Desclaimer. Terms & Conditions. Privacy Policy.</p>
+                </div>
+                <!-- middle -->
+                <div class="col-lg-2 text">
+                    <h5 class="f-hr text-light">Quick Links</h5>
+                    <hr class="f-hr border-3 m-0">
+                    <ul class=" p-2">
+                        <li class="pb-2">About Me</li>
+                        <li class="pb-2">Courses</li>
+                        <li class="pb-2">Pricing</li>
+                        <li class="pb-2">Testimonial</li>
+                        <li class="pb-2">Career</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text">
+                    <h5 class=" text-light">Connect With Us</h5>
+                    <hr class="f-hr border-3 m-0 pb-3">
+                    <p><i class="fa-solid fa-location-dot"></i> 12, Jhankar Mahbub Street,<br>Programming Hero, Bangladesh</p>
+                    <p><i class="fa-solid fa-phone"></i> 999, +88012345</p>
+                    <h5 class=" text-light">Download Our App</h5>
+                    <hr class="border-3 m-0 pb-4">
+                    <img class="img-fluid w-50" src="images/logos/logo4.png" alt="">
+                </div>
+            </div>
+        </div>
     </footer>
     
     
